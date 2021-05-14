@@ -1,0 +1,111 @@
+.grid > .column:not(.row), .grid > .row > .column {
+    position: relative;
+    display: inline-block;
+    width: 6.25%;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    vertical-align: top;
+}
+.grid > .row > [class*="thirteen wide"].column, .grid > .column.row > [class*="thirteen wide"].column, .grid > [class*="thirteen wide"].column, .column.grid > [class*="thirteen wide"].column {
+    width: 107% !important;
+}
+.grid > .row > [class*="three wide"].column, .grid > .column.row > [class*="three wide"].column, .grid > [class*="three wide"].column, .column.grid > [class*="three wide"].column {
+    width: 100% !important;
+}
+.grid > .row {
+    position: relative;
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: 1fr 2.5fr;
+    width: 100% !important;
+    padding: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.avatar {
+    position: relative;
+    display: block;
+    flex: 1 0 auto;
+    max-width: 20rem;
+    width: 125%;
+}
+h1, h2, h3, h4, h5 {
+    line-height: 1.28571429em;
+    margin: 0 0 0.5rem 0;
+    font-weight: bold;
+    padding: 0;
+}
+.contacts li a.twitter:hover {
+    color: #00acee;
+}
+ul > li:before {
+    content: "";
+    font-family: "";
+    float: left;
+    width: 0em;
+    margin-left: 0em;
+    text-align: center;
+}
+.contacts li a.instagram:hover {
+    background:linear-gradient(to top, #f9ed32, #ee2a7b, #002aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+img.images {
+    box-sizing: content-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+}
+
+
+.divider.fat {
+    border-top: 0.3571428571428571em solid rgba(10, 10, 10, 1);
+    width: 100%;
+}
+p {
+    margin: 0 0 0.5em;
+    line-height: 1.4285em;
+}
+ul, ol {
+    padding-left: 0em;
+    padding-bottom: 0.5em;
+}
+.timeline > li p {
+    margin: 0 0 0.5em 0;
+}
+i.fas.fa-lightbulb {
+    color: gold;
+}
+i.fas.fa-trophy{
+    color: gold;
+}
+i.fas.fa-book-open {
+    color: rgb(110, 55, 0);
+}
+.grid > .half-page {
+    position: relative;
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: 4fr 3fr;
+    width: 100% !important;
+    padding: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+ul.background {
+    padding: 0.5em;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+div.ten.wide.column {
+    padding: 0rem 1rem 0rem 0rem;
+}
+.contacts li a.phone:hover {
+    color: gray;
+}
+.contacts li a.mail:hover {
+    color: orange;
+}
