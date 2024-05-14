@@ -35,9 +35,16 @@ h1, h2, h3, h4, h5 {
     font-weight: bold;
     padding: 0;
 }
-.contacts li a.twitter:hover {
+.contacts li a.telegram:hover {
     color: #00acee;
 }
+
+.contacts li a.github:hover {
+    background:linear-gradient(to top, #350985, #873FA3, #0D0222);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 ul > li:before {
     content: "";
     font-family: "";
@@ -89,7 +96,7 @@ i.fas.fa-book-open {
     position: relative;
     display: grid;
     align-items: stretch;
-    grid-template-columns: 4fr 3fr;
+    grid-template-columns: 5fr 5fr;
     width: 100% !important;
     padding: 0rem;
     padding-top: 1rem;
@@ -108,4 +115,22 @@ div.ten.wide.column {
 }
 .contacts li a.mail:hover {
     color: orange;
+}
+label#tech {
+    display:block;
+    line-height:1.2rem;
+    padding:.3rem 0
+}
+.label.label-rounded#tech {
+    border-radius:5rem;
+    padding-left:.4rem;
+    padding-right:.4rem
+}
+.label.label-warning#tech {
+    background:#fbd139;;
+    color:#fff
+}
+.label.label-warning#tech {
+    background:#f1c31c;;
+    color:#fff
 }
